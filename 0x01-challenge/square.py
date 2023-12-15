@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Module for class Square """
+""" Module for square class"""
 
 
 class Square():
@@ -21,12 +21,12 @@ class Square():
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
-        """ format """
+        """ Printable representation """
         return "{}/{}".format(self.width, self.height)
 
 
 if __name__ == "__main__":
-    """ Create quare object """
+    """ Create a square object """
     s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
